@@ -1,0 +1,127 @@
+body {
+font-family: "Trebuchet MS", Verdana, Geneva, Arial, sans-serif;
+background: #ddd url(/images/bg.gif);
+font-size: 0.8em;
+margin:0;
+padding:0;
+}
+
+h1 { font-size: 1.8em; color: #718ea5; }
+
+hr { display: none; }
+
+a { color: #E4A12C; }
+a:visited { color: black; }
+a:hover { color: green; }
+
+#head { text-align: left; background: #8AA5B5; padding-left: 2%; border-bottom: 1px solid #ccc; }
+#head .wrap { padding: 5px; }
+
+#head h1 { color: white; font-size: 2em; }
+
+#head blockquote  { 
+	width: 20em; 
+	text-align: left; 
+	float: right; 
+	font-style: italic; 
+	font-size: 1.1em;
+	}
+#head blockquote div { width: 100%; font-style: normal; font-size: 1.1em; text-align: right; }
+#bodywrap
+{
+background: #f4f4f4;
+border: 1px solid #ccd7e0;
+width: 900px; 
+margin: 1em auto;
+text-align: center;
+}
+
+
+
+#navlist {
+	  
+	padding: 5px 0;
+	margin: 0;
+	/* border-bottom: 1px solid white; */ 
+	font: bold 0.8em;
+	text-align: left;
+}
+
+ul#navigation-toplevel {
+	margin: 0;
+	padding: 0;
+}
+
+#navlist li {
+	list-style: none;
+	margin: 0;
+	display: inline;
+}
+
+#navlist li a {
+	padding: 5px 0.8em;
+	margin-left: 3px;
+	border: 1px solid #778;
+	border-bottom: none;
+	background: #CBD7DE;
+	text-decoration: none;
+}
+
+#navlist li a:link, #navlist li a:visited { color: black; }
+
+#navlist li a:hover {
+	color: #000;
+	background: orange;
+	border-color: #227;
+}
+
+#navlist li#current a {
+	background: white;
+	/* border-bottom: 1px solid white; */
+}
+
+
+#submenu { float: left; width: 200px; background: url(http://www.intraface.dk/main/file/?/WIh6YnRu22X5W5ye/YVvZzLe9bdQ8uuL837LyesQhG8GshQupC6w2HAhZUXgeASut778/slosdkbackground3.gif) no-repeat; height: 300px; }
+#submenu ul { list-style-type: none; margin: 1.5em 1em; padding:0;/* border-top: 1px solid #ccc; padding: 0.3em 0 0 0; */}
+#submenu li {border-bottom: 1px solid #ccc; margin: 0 0 0.3em 0; padding: 0 1em 0.3em 1em; }
+#submenu li#currentsubnav a { font-weight: bold; text-decoration: none; }
+
+#content { margin: 1em 0; padding: 0; text-align: left; clear: both; }
+#content .wrap { padding: 0 2em; float: left; width: 600px; overflow: hidden; }
+#content h1, #content h2 { letter-spacing: -1px; }
+
+
+
+
+#news { clear: both; padding: 1em; border-top: 1px solid black;  display: none; }
+
+#foot { clear: both; padding: 0; margin: 0; }
+
+.frame { background: #f4f4f4; border: 1px solid #ccc; padding: 1em; }
+.frame ul { margin: 0; padding: 0; list-style-type: none; }
+.frame a { display: block; }
+.frame li { margin-top: 0.5em;}
+.frame h2 { margin: 0; }
+
+fieldset { width: 30em; padding: 1em; }
+legend { font-weight: bold; }
+.formrow label { width: 10em; float: left; }
+.formrow { clear: both; }
+.guestbook hr { display: none; }
+
+.picture img { padding: 0.2em; border: 1px solid #ccc; }
+.picture p { margin: 0.2em; text-align: center; font-size: 0.8em; }
+
+.right { text-align: right; }
+.left { text-align: left; }
+.center { margin: 0 auto; }
+
+/* sideoversigt */
+
+.page { padding: 1px; margin-top: 0.5em; margin-bottom: 1em; clear: both; border: 1px solid #ccd7e0; }
+.page h3 { background: #CBD7DE; padding: 0.3em; font-size: 1em; margin: 0 0 0.3em 0; }
+
+/* Billedoversigt */
+#picturealbumsingle img { border: 1px solid #ccc; padding: 3px; }
+
+#foot { text-align: center; }
